@@ -1,12 +1,12 @@
 class SceneOverlay extends EditorWindow {
-    @MenuItem ("Window/Scene Overlay")
+    @MenuItem ("Window/SceneOverlay")
 
     static function Init() {
         var window : SceneOverlay = EditorWindow.GetWindow(SceneOverlay);
     }
     
     function OnGUI() {
-       	var mergerObject = GameObject.Find("Scene Merger");
+       	var mergerObject = GameObject.Find("SceneMerger");
        	if (!mergerObject) return;
        	
        	var merger = mergerObject.GetComponent.<SceneMerger>();
@@ -22,5 +22,4 @@ class SceneOverlay extends EditorWindow {
         	merger.ClearOverlay();
         }
     }
-
 }
