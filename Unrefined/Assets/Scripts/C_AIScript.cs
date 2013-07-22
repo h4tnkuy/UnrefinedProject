@@ -252,7 +252,6 @@ public class C_AIScript : MonoBehaviour
 	
 	void Attack2(){
 		if(PlayerFunction()==true){
-			timer++;
 			//Debug.Log(trriger);
 			if(timer>=120){
 				trriger=Random.Range(1,3);
@@ -263,19 +262,28 @@ public class C_AIScript : MonoBehaviour
 	            animation.CrossFade("run");
 	        }else{
 				if(trriger==1){
+					timer++;
 					this.transform.rotation = Quaternion.Slerp(transform.rotation,
 						Quaternion.LookRotation(player.position - this.transform.position),
 						TraceSpeed);
 					animation.CrossFade("idle");
 				}else{
 					if ((_transform.position - ObstacleObject.position).sqrMagnitude < range*20){
-						Leave2 (ObstacleObject);
-						this.transform.rotation = Quaternion.Slerp(transform.rotation,
-							Quaternion.LookRotation(player.position - this.transform.position),
-							TraceSpeed);
-						animation.CrossFade("attackOwn");
+						if(trriger==1){
+							Move(ObstacleObject);
+	            			animation.CrossFade("run");
+						}else{
+							timer++;
+							Leave2 (ObstacleObject);
+							this.transform.rotation = Quaternion.Slerp(transform.rotation,
+								Quaternion.LookRotation(player.position - this.transform.position),
+								TraceSpeed);
+							animation.CrossFade("attackOwn");
+						}
 					}else{
-						animation.CrossFade("idle");
+						Move(ObstacleObject);
+	            		animation.CrossFade("run");
+						trriger=1;
 					}
 				}
 				
