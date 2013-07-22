@@ -44,7 +44,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editer\SceneOverlay.js" />
      <Compile Include="Assets\Scripts\SceneMerger.js" />
      <None Include="Assets\SpartanKing\animations.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
