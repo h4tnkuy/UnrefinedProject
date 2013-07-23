@@ -50,7 +50,9 @@
      <Compile Include="Assets\Scripts\C_AIScript.cs" />
      <Compile Include="Assets\Scripts\C_SwordScript.cs" />
      <Compile Include="Assets\Scripts\C_WaypointScript.cs" />
+     <Compile Include="Assets\Scripts\XMLLoader.cs" />
      <None Include="Assets\SpartanKing\animations.txt" />
+     <None Include="Assets\XML\chapter1.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

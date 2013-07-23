@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}</ProjectGuid>
+	<ProjectGuid>{2B924C9E-6B7C-9739-E95B-7933E904937A}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript-Editor</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,22 +44,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CCameraAngle.cs" />
-     <Compile Include="Assets\Scripts\CCharacterMove.cs" />
-     <Compile Include="Assets\Scripts\CTouchShot.cs" />
-     <Compile Include="Assets\Scripts\C_AIScript.cs" />
-     <Compile Include="Assets\Scripts\C_SwordScript.cs" />
-     <Compile Include="Assets\Scripts\C_WaypointScript.cs" />
-     <Compile Include="Assets\Scripts\XMLLoader.cs" />
+     <Compile Include="Assets\Editor\SceneOverlay.js" />
      <None Include="Assets\SpartanKing\animations.txt" />
      <None Include="Assets\XML\chapter1.xml" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{6FCCAA25-4339-5B36-BF76-11F75827CF06}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6FCCAA25-4339-5B36-BF76-11F75827CF06}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{BBC04541-A87B-1F38-617A-6C7C9C0830D4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{30753CE5-183D-B790-B023-F46D24444408}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

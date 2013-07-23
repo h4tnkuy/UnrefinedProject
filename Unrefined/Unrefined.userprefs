@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Editer\SceneOverlay.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\XMLLoader.cs">
     <Files>
-      <File FileName="Assets\Editer\SceneOverlay.js" Line="9" Column="45" />
+      <File FileName="Assets\Scripts\XMLLoader.cs" Line="14" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

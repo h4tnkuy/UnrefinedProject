@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\SceneMerger.js" />
      <None Include="Assets\SpartanKing\animations.txt" />
+     <None Include="Assets\XML\chapter1.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

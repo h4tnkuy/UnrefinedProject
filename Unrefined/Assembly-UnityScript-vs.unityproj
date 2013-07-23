@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\SceneMerger.js" />
      <None Include="Assets\SpartanKing\animations.txt" />
+     <None Include="Assets\XML\chapter1.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
