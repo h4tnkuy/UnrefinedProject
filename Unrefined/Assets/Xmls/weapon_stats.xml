@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<unrefined>
+	<weapons>
+		<name>glock18c</name>
+		<power>18</power>
+		<accuracy>60</accuracy>
+		<recoil>70</recoil>
+		<rapidfire>90</rapidfire>
+		<weight>30</weight>
+		<ammo>33</ammo>
+	</weapons>
+</unrefined>
