@@ -1,3 +1,9 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
 
-/Unrefined/Library/guidmapper
-/Unrefined/Library/assetDatabase3
+*.csproj
+*.unityproj
+*.sln
+
+# !Assets/Scripts/Library/
