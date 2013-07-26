@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\CCameraAngle.cs" />
      <Compile Include="Assets\Scripts\CCharacterMove.cs" />
      <Compile Include="Assets\Scripts\CPlayerLookAt.cs" />
+     <Compile Include="Assets\Scripts\CRandmRotate.cs" />
      <Compile Include="Assets\Scripts\CTouchShot.cs" />
      <Compile Include="Assets\Sounds\dummy_sounds.cs" />
      <Compile Include="Assets\Textures\dummy_textures.cs" />

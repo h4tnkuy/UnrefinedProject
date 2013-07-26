@@ -156,6 +156,6 @@ public class CTouchShot : MonoBehaviour {
 	
 	//テスト 
 	void OnGUI(){
-		GUI.Label(new Rect(0f,150f,100f,100f), "Ammo" + gunAmmoNum);
+		//GUI.Label(new Rect(0f,150f,100f,100f), "Ammo" + gunAmmoNum);
 	}
 }
