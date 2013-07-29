@@ -54,6 +54,11 @@
      <Compile Include="Assets\Scripts\CPlayerLookAt.cs" />
      <Compile Include="Assets\Scripts\CRandmRotate.cs" />
      <Compile Include="Assets\Scripts\CTouchShot.cs" />
+     <Compile Include="Assets\Scripts\C_AIScript.cs" />
+     <Compile Include="Assets\Scripts\C_SonicBoom.cs" />
+     <Compile Include="Assets\Scripts\C_SonicBoomClone.cs" />
+     <Compile Include="Assets\Scripts\C_SwordScript.cs" />
+     <Compile Include="Assets\Scripts\C_WaypointScript.cs" />
      <Compile Include="Assets\Sounds\dummy_sounds.cs" />
      <Compile Include="Assets\Standard Assets (Mobile)\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Textures\dummy_textures.cs" />
