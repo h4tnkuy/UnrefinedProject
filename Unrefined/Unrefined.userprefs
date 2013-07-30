@@ -1,8 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SceneMerger.js">
     <Files>
       <File FileName="Assets\Scripts\SceneMerger.js" Line="37" Column="15" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\C_AIScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CTouchShot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CCameraAngle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\C_AIScript.cs" Line="176" Column="39" />
+>>>>>>> ed6bcbbfb4f46effee891c3b7c2c813455de8d72
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
