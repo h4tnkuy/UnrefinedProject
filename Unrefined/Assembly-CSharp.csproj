@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\CBulletHole.cs" />
      <Compile Include="Assets\Scripts\CCameraAngle.cs" />
      <Compile Include="Assets\Scripts\CCharacterMove.cs" />
+     <Compile Include="Assets\Scripts\CMoveController.cs" />
      <Compile Include="Assets\Scripts\CPlayerLookAt.cs" />
      <Compile Include="Assets\Scripts\CRandmRotate.cs" />
      <Compile Include="Assets\Scripts\CTouchShot.cs" />
@@ -73,6 +74,12 @@
      <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Xmls\chapter1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6FCCAA25-4339-5B36-BF76-11F75827CF06}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{BBC04541-A87B-1F38-617A-6C7C9C0830D4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
