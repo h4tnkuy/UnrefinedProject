@@ -23,8 +23,8 @@ public class CCameraAngle : MonoBehaviour {
 	}
 	
 	//GUIから取得 
-	public void setAngle(float x, float y){
-		angleX += y;
-		angleY += x;
+	public void setAngle(Vector2 viewVec){
+		angleX += viewVec.y;
+		angleY += viewVec.x;
 	}
 }

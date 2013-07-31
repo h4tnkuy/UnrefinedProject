@@ -47,8 +47,8 @@ public class CCharacterMove : MonoBehaviour {
 	}
 	
 	//GUIから取得 
-	public void setGBLR(float gb, float lr){
-		getMoveX = gb;
-		getMoveZ = lr;
+	public void Move(Vector2 moveVec){
+		getMoveX = moveVec.x;
+		getMoveZ = moveVec.y;
 	}
 }

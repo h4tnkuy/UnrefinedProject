@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{27D97493-3532-127B-2CA9-4A6DC31123B3}") = "Unrefined", "Assembly-CSharp-firstpass.csproj", "{6FCCAA25-4339-5B36-BF76-11F75827CF06}"
+EndProject
 Project("{27D97493-3532-127B-2CA9-4A6DC31123B3}") = "Unrefined", "Assembly-CSharp.csproj", "{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}"
+EndProject
+Project("{27D97493-3532-127B-2CA9-4A6DC31123B3}") = "Unrefined", "Assembly-UnityScript-firstpass.unityproj", "{BBC04541-A87B-1F38-617A-6C7C9C0830D4}"
 EndProject
 Project("{27D97493-3532-127B-2CA9-4A6DC31123B3}") = "Unrefined", "Assembly-UnityScript.unityproj", "{30753CE5-183D-B790-B023-F46D24444408}"
 EndProject
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FCCAA25-4339-5B36-BF76-11F75827CF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCCAA25-4339-5B36-BF76-11F75827CF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCCAA25-4339-5B36-BF76-11F75827CF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCCAA25-4339-5B36-BF76-11F75827CF06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E29C16-2064-E6FF-0008-C6F9FEA13CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC04541-A87B-1F38-617A-6C7C9C0830D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC04541-A87B-1F38-617A-6C7C9C0830D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC04541-A87B-1F38-617A-6C7C9C0830D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC04541-A87B-1F38-617A-6C7C9C0830D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{30753CE5-183D-B790-B023-F46D24444408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{30753CE5-183D-B790-B023-F46D24444408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30753CE5-183D-B790-B023-F46D24444408}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,10 +35,14 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																															GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																										GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> ed6bcbbfb4f46effee891c3b7c2c813455de8d72
+=======
+																																																		GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> 7a69298536ba17b38ef1143c91511de925cb7458
 =======
 															GlobalSection(MonoDevelopProperties) = preSolution
 =======
