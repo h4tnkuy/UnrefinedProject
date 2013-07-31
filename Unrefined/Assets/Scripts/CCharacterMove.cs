@@ -6,49 +6,30 @@ using System.Collections;
  * 
  *  */
 public class CCharacterMove : MonoBehaviour {
-
 	
-	//取得する情報 
-	private float getMoveX;
-	private float getMoveZ;
-	private float getR;
+	public float MoveSpeed = 1f;
 	
-	//ほかのオブジェクトに適用したスクリプトの読み込み 
-	private GameObject cam;
+	private Vector3 moveVec;
 	
-	private Vector3 GB;
-	private Vector3 LR;
-	private CCameraAngle ca;
+	private GameObject camera;
 	
 	// Use this for initialization
 	void Start () {
-		
-		getMoveX = 0.0f;
-		getMoveZ = 0.0f;
-		getR = 0.0f;
-		
-		cam = GameObject.Find("Main Camera");
-		ca = cam.GetComponent<CCameraAngle>();
-	}
-	//GUI
-	void OnGUI(){
-		
+		camera = GameObject.Find("Main Camera");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		//仮想アナログパッドから値を持ってくる 
+		float speed = Time.deltaTime * MoveSpeed;
 		
-		GB = Vector3.forward * getMoveX;
-		LR = Vector3.right * getMoveZ;
-		transform.Translate(GB);
-		transform.Translate(LR);
-		transform.rotation = Quaternion.Euler(0f, ca.getFunctionRotate(), 0f);
+		Vector3 angle = camera.transform.TransformDirection(moveVec);
+		
+		this.transform.Translate(angle * speed);
 	}
 	
 	//GUIから取得 
-	public void Move(Vector2 moveVec){
-		getMoveX = moveVec.x;
-		getMoveZ = moveVec.y;
+	public void Move(Vector2 vec){
+		moveVec.x = vec.x;
+		moveVec.z = vec.y;
 	}
 }
