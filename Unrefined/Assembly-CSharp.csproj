@@ -50,7 +50,9 @@
      <Compile Include="Assets\Prefabs\dummy_prefabs.cs" />
      <Compile Include="Assets\Scripts\CBulletHole.cs" />
      <Compile Include="Assets\Scripts\CCameraAngle.cs" />
+     <Compile Include="Assets\Scripts\CCameraController.cs" />
      <Compile Include="Assets\Scripts\CCharacterMove.cs" />
+     <Compile Include="Assets\Scripts\CMoveController.cs" />
      <Compile Include="Assets\Scripts\CPlayerLookAt.cs" />
      <Compile Include="Assets\Scripts\CRandmRotate.cs" />
      <Compile Include="Assets\Scripts\CTouchShot.cs" />
