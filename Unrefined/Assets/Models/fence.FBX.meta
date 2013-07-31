@@ -1,23 +1,27 @@
 fileFormatVersion: 2
-guid: 725b1bded93a9514c9b8270253e02383
+guid: 0bfad88948560a649a7e6dd8fff7e798
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: 1F
-    100002: 2F
-    100004: //RootNode
-    400000: 1F
-    400002: 2F
-    400004: //RootNode
-    2300000: 1F
-    2300002: 2F
-    2300004: //RootNode
-    3300000: 1F
-    3300002: 2F
-    3300004: //RootNode
-    4300000: 1F
-    4300002: 2F
-    4300004: barrack
+    100000: //RootNode
+    100002: fence
+    100004: wire
+    100006: fence 1
+    400000: //RootNode
+    400002: fence
+    400004: wire
+    400006: fence 1
+    2300000: fence
+    2300002: wire
+    2300004: fence 1
+    2300006: //RootNode
+    3300000: fence
+    3300002: wire
+    3300004: fence 1
+    3300006: //RootNode
+    4300000: wire
+    4300002: fence
+    4300004: Torus001
     9500000: //RootNode
   materials:
     importMaterials: 1
