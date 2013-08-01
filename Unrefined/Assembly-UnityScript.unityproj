@@ -53,10 +53,13 @@
      <None Include="Assets\SpartanKing\animations.txt" />
      <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Shader\dummy.txt" />
      <None Include="Assets\Xmls\weapon_stats.xml" />
      <None Include="Assets\Standard Assets\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
      <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Shader\dummy.txt" />
+     <None Include="Assets\Shader\DoubleView.shader" />
      <None Include="Assets\Xmls\chapter1.xml" />
   </ItemGroup>
   <ItemGroup>
