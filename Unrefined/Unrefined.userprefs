@@ -1,19 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shader\DoubleView.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CSinglePlayer.cs">
     <Files>
-      <File FileName="Assets\Shader\DoubleView.shader" Line="34" Column="2" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CCameraAngle.cs">
-    <Files>
-      <File FileName="Assets\Scripts\CCharacterMove.cs" Line="33" Column="21" />
->>>>>>> b50733783b1e5daec084700a5ee33f1119d5c4d9
-      <File FileName="Assets\Scripts\CTouchShot.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CCameraAngle.cs" Line="19" Column="5" />
-      <File FileName="Assets\Scripts\C_AIScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CMoveController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CCameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CSinglePlayer.cs" Line="21" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
