@@ -11,10 +11,13 @@ ModelImporter:
     400004: //RootNode
     2300000: 1F
     2300002: 2F
+    2300004: //RootNode
     3300000: 1F
     3300002: 2F
+    3300004: //RootNode
     4300000: 1F
     4300002: 2F
+    4300004: barrack
     9500000: //RootNode
   materials:
     importMaterials: 1

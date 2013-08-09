@@ -50,7 +50,9 @@
      <Compile Include="Assets\Prefabs\dummy_prefabs.cs" />
      <Compile Include="Assets\Scripts\CBulletHole.cs" />
      <Compile Include="Assets\Scripts\CCameraAngle.cs" />
+     <Compile Include="Assets\Scripts\CCameraController.cs" />
      <Compile Include="Assets\Scripts\CCharacterMove.cs" />
+     <Compile Include="Assets\Scripts\CMoveController.cs" />
      <Compile Include="Assets\Scripts\CPlayerLookAt.cs" />
      <Compile Include="Assets\Scripts\CRandmRotate.cs" />
      <Compile Include="Assets\Scripts\CTouchShot.cs" />
@@ -60,20 +62,26 @@
      <Compile Include="Assets\Scripts\C_SwordScript.cs" />
      <Compile Include="Assets\Scripts\C_WaypointScript.cs" />
      <Compile Include="Assets\Sounds\dummy_sounds.cs" />
-     <Compile Include="Assets\Standard Assets (Mobile)\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Textures\dummy_textures.cs" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\SpartanKing\animations.txt" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Shader\dummy.txt" />
+     <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
      <None Include="Assets\Xmls\weapon_stats.xml" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
-     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Xmls\chapter1.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{6FCCAA25-4339-5B36-BF76-11F75827CF06}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{BBC04541-A87B-1F38-617A-6C7C9C0830D4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
