@@ -16,7 +16,7 @@ public class CCameraAngle : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.rotation = Quaternion.Euler(angleX, angleY, 0f);
+		//transform.rotation = Quaternion.Euler(angleX, angleY, 0f);
 	}
 	public float getFunctionRotate(){
 		return angleY;
