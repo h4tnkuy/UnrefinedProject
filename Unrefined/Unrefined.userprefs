@@ -1,5 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewBehaviourScript2.cs">
     <Files>
       <File FileName="Assets\rifle.cs" Line="14" Column="42" />
@@ -13,6 +14,18 @@
       <File FileName="Assets\Weapons.cs" Line="17" Column="64" />
       <File FileName="Assets\Standard Assets\Scripts\Joystick.js" Line="1" Column="1" />
       <File FileName="Assets\NewBehaviourScript2.cs" Line="28" Column="38" />
+=======
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CCharacterMove.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CCameraAngle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CCharacterMove.cs" Line="31" Column="29" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CSinglePlayer.cs">
+    <Files>
+      <File FileName="Assets\Scripts\CSinglePlayer.cs" Line="21" Column="34" />
+>>>>>>> 58de721615cbd3b1d17733777329ad4c13492d2f
+>>>>>>> a8135027d8a91f83dd680911e985345eeb43b701
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

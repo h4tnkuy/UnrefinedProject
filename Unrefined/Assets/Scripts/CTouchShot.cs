@@ -38,11 +38,13 @@ public class CTouchShot : MonoBehaviour {
 	
 	public GameObject gunObject;
 	
+	public GameObject knifePrefab;
+	
 	
 	// Use this for initialization
 	void Start () {
 		
-		gunNumber = 1;
+		gunNumber = 0;
 		fireRate = 0;
 		fireRateTimer = 0;
 		
@@ -63,12 +65,14 @@ public class CTouchShot : MonoBehaviour {
 			//発射レートの管理 
 				if(fireRateTimer == 0 | fireRateTimer % fireRate == 0){*/
 					//タッチした座標からビームを飛ばす 
+			if(gunNumber == 1){
 					ray = camera.ScreenPointToRay(Input.mousePosition);
 					if(Physics.Raycast(ray, out hit, 100f)){
 						//ビームが当たったところの情報を取得 
 						hitObject = hit.collider.gameObject;
 						if(hitObject.gameObject.tag == "Player"){
-							vsEnemyObject();
+							hitObject.GetComponent<CPlayersHitpoint>().hpCounter(0.2f);
+							//vsEnemyObject();
 						}
 						if(hitObject.gameObject.tag == "Obstacle"){
 							Instantiate(bulletMark1, hit.point, Quaternion.identity);
@@ -83,6 +87,12 @@ public class CTouchShot : MonoBehaviour {
 					gunAmmoNum --;
 				}
 				fireRateTimer ++;
+			
+			if(gunNumber == 0){
+				Instantiate(knifePrefab, this.gameObject.transform.position + this.gameObject.transform.forward * 1.1f
+					, Quaternion.identity);
+			}
+		}
 			/*}
 			
 		}*/
@@ -90,13 +100,6 @@ public class CTouchShot : MonoBehaviour {
 			fireRateTimer = 0;
 		}
 		
-	}
-	
-	//対人戦の時の処理 
-	//相手に当たった時にHPを減らす処理をする（テストではGetComponentを使いスケールをいじる） 
-	//引数、戻り値はなし 
-	void vsEnemyObject(){
-		hitObject.transform.localScale = hitObject.transform.localScale *= 1.01f;
 	}
 
 	//GUIから武器の情報をもらってくる 

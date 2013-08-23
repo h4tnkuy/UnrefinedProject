@@ -55,9 +55,12 @@
      <Compile Include="Assets\Scripts\CCameraAngle.cs" />
      <Compile Include="Assets\Scripts\CCameraController.cs" />
      <Compile Include="Assets\Scripts\CCharacterMove.cs" />
+     <Compile Include="Assets\Scripts\CKnifeAttack.cs" />
      <Compile Include="Assets\Scripts\CMoveController.cs" />
      <Compile Include="Assets\Scripts\CPlayerLookAt.cs" />
+     <Compile Include="Assets\Scripts\CPlayersHitpoint.cs" />
      <Compile Include="Assets\Scripts\CRandmRotate.cs" />
+     <Compile Include="Assets\Scripts\CSinglePlayer.cs" />
      <Compile Include="Assets\Scripts\CTouchShot.cs" />
      <Compile Include="Assets\Scripts\C_AIScript.cs" />
      <Compile Include="Assets\Scripts\C_SonicBoom.cs" />
