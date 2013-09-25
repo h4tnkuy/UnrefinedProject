@@ -11,18 +11,22 @@ public class CCharacterMove : MonoBehaviour {
 	
 	private Vector3 moveVec;
 	
-	private GameObject camera;
+	public GameObject camera;
+	
+	private Vector3 angle;
+	
+	float speed;
 	
 	// Use this for initialization
 	void Start () {
-		camera = GameObject.Find("Main Camera");
+		speed = 0.0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		float speed = Time.deltaTime * MoveSpeed;
+		speed = Time.deltaTime * MoveSpeed;
 		
-		Vector3 angle = camera.transform.TransformDirection(moveVec);
+		angle = camera.transform.TransformDirection(moveVec);
 		
 		this.transform.Translate(angle * speed);
 	}

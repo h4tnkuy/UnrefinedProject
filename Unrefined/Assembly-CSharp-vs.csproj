@@ -44,11 +44,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GUIButton.cs" />
      <Compile Include="Assets\Materials\dummy_materials.cs" />
      <Compile Include="Assets\Models\dummy_models.cs" />
-     <Compile Include="Assets\NewBehaviourScript.cs" />
-     <Compile Include="Assets\NewBehaviourScript2.cs" />
      <Compile Include="Assets\Physic Materials\dummy_physicmaterials.cs" />
      <Compile Include="Assets\Prefabs\dummy_prefabs.cs" />
      <Compile Include="Assets\Scripts\CBulletHole.cs" />
@@ -69,18 +66,12 @@
      <Compile Include="Assets\Scripts\C_WaypointScript.cs" />
      <Compile Include="Assets\Sounds\dummy_sounds.cs" />
      <Compile Include="Assets\Textures\dummy_textures.cs" />
-     <Compile Include="Assets\Weapons.cs" />
-     <Compile Include="Assets\bazooka.cs" />
-     <Compile Include="Assets\bulletView.cs" />
-     <Compile Include="Assets\knife.cs" />
-     <Compile Include="Assets\menu.cs" />
-     <Compile Include="Assets\rifle.cs" />
      <None Include="Assets\Standard Assets\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Shader\dummy.txt" />
      <None Include="Assets\Standard Assets\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
      <None Include="Assets\Standard Assets\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\SpartanKing\animations.txt" />
-     <None Include="Assets\Shader\dummy.txt" />
      <None Include="Assets\Standard Assets\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
      <None Include="Assets\Xmls\weapon_stats.xml" />
