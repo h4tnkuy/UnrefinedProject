@@ -66,6 +66,10 @@
      <Compile Include="Assets\Scripts\C_WaypointScript.cs" />
      <Compile Include="Assets\Sounds\dummy_sounds.cs" />
      <Compile Include="Assets\Textures\dummy_textures.cs" />
+<<<<<<< HEAD
+=======
+     <None Include="Assets\Shader\dummy.txt" />
+>>>>>>> 1549bf083dd522aad35240f0c7b46d956107ff23
      <None Include="Assets\Standard Assets\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Shader\dummy.txt" />
